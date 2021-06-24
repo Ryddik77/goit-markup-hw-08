@@ -1,0 +1,41 @@
+@media screen and (max-width: 1199px) {
+  .photos {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+.photos {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.photos-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.photo-list-wrapper {
+  position: relative;
+}
+.photo-list-text {
+  position: absolute;
+  bottom: 0;
+  left: 0; 
+  width: 100%;
+  height: 70px;
+  font-weight: 700; 
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background-color: rgba(47, 48, 58, 0.8);
+}
+
+.photo-list-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+}
