@@ -9,11 +9,17 @@
 
 .container-icon {
   display: flex;
+  width: 450px;
   align-items: center;
   justify-content: center;
   height: 120px;
   border-radius: 4px;
   margin-bottom: 30px;
+  background: #F5F4FA;
+}
+
+.about-skills-content {
+  width: 450px; 
 }
 
 .about-title {
@@ -39,6 +45,7 @@
   .about-skills-content {
     width: 354px; 
   }
+
   .container-icon {
     width: 354px;
   }
@@ -49,6 +56,10 @@
 }
 
 @media screen and (min-width: 1200px) {
+  .about {
+  padding-top: 94px;
+}
+
   .about-skills {
     display: flex;
     justify-content: space-between;
@@ -57,9 +68,10 @@
   .about-skills-content {
     width: 270px; 
   }
+
   .container-icon {
     width: 270px;
-    background: #E5E5E5;
+    background: #ffffff;
   }
 
   .about-item:nth-last-child(-n+4) {
